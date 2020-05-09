@@ -1,0 +1,86 @@
+.mainbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    background-color: white;
+}
+
+.leftside{
+    display: flex;
+    margin-right: 50px;
+}
+.mainbox>.rightside>.ul>li{
+
+}
+
+.mainbox>.leftside>div{
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-family: Arial;
+
+}
+.kaste{
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+
+
+.kaste a {
+    color: #999999;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.kaste:hover
+{
+    border-bottom: 1px solid black;
+}
+.kaste a:hover {
+    color: black;
+}
+
+
+
+
+body{
+    background-color: yellow;
+    font-family: Arial;
+}
+
+.teksts{
+    margin: 100px;
+    text-align: justify;
+    align-content: center;
+    background-color: white;
+    border: white;
+    padding: 100px;
+}
+.fb-share-button {
+    position: center;
+    align-content: center;
+
+
+}
+.video{
+     margin: 100px;
+     text-align: justify;
+     align-content: center;
+     background-color: white;
+     border: white;
+     padding: 100px;
+    position: relative;
+ }
+
+.contacts {
+    margin: 100px;
+    text-align: justify;
+    align-content: center;
+    background-color: white;
+    border: white;
+    padding: 100px;
+    display: flex;
+}
+
